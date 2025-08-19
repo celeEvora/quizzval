@@ -60,7 +60,7 @@ export default function Quiz({
   const progress = ((currentQuestion + 1) / questions.length) * 100;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100 px-4 py-10">
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between mb-8">
           <button
