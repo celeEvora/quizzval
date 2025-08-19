@@ -58,7 +58,6 @@ export default function Graphs({
                     cy="50%"
                     innerRadius={40}
                     outerRadius={80}
-                    paddingAngle={5}
                     dataKey="value"
                   >
                     {pieData.map((entry, index) => (

@@ -1,6 +1,9 @@
-import { ArrowLeft, Trophy, RotateCcw } from "lucide-react";
+import { ArrowLeft, Trophy, RotateCcw, Frown } from "lucide-react";
 import { UserAnswer, Subject } from "../types";
+import { cn } from "../utils/tailwind";
 import Graphs from "./Graphs";
+import bgMath from "../assets/img/bg-math.webp";
+import bgLanguage from "../assets/img/bg-language.webp";
 
 interface ResultsProps {
   subject: Subject;
@@ -65,7 +68,18 @@ export default function Results({
   }, {} as Record<string, { correct: number; total: number }>);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-100 via-pink-50 to-purple-100 px-4 py-10">
+    <div
+      className="min-h-screen px-4 py-10 relative"
+      style={{
+        backgroundImage: {
+          math: `linear-gradient(rgba(191,219,254,1), rgba(191,219,254,0.8)), url(${bgMath})`,
+          language: `linear-gradient(rgba(254,215,170,1), rgba(254,215,170,0.8)), url(${bgLanguage})`,
+        }[subject],
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center mb-8">
           <button
@@ -91,31 +105,39 @@ export default function Results({
         <div className="bg-white rounded-3xl shadow-xl p-8 mb-15">
           <div className="text-center">
             <div
-              className={`bg-gradient-to-r ${motivation.color} rounded-full w-32 h-32 mx-auto mb-6 flex items-center justify-center`}
+              className={cn(
+                `bg-gradient-to-r rounded-full w-32 h-32 mx-auto mb-6 flex items-center justify-center`,
+                motivation.color
+              )}
             >
-              <Trophy className="w-16 h-16 text-white" />
+              {percentage >= 70 ? (
+                <Trophy className="w-16 h-16 text-white" />
+              ) : (
+                <Frown className="w-16 h-16 text-white" />
+              )}
             </div>
 
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              {correctAnswers} / {totalQuestions}
-            </h2>
-
-            <div
-              className="text-4xl font-bold mb-4"
-              style={{
-                color: motivation.color.includes("yellow")
-                  ? "#F59E0B"
-                  : motivation.color.includes("green")
-                  ? "#10B981"
-                  : motivation.color.includes("blue")
-                  ? "#3B82F6"
-                  : "#8B5CF6",
-              }}
-            >
-              <p>Obtuviste un {decimalGrade}</p>
+            <div className="text-4xl font-bold mb-4">
+              <h2>
+                Obtuviste un{" "}
+                <span
+                  className={cn({
+                    "text-red-600": percentage < 50,
+                    "text-orange-600": percentage >= 50 && percentage < 80,
+                    "text-lime-600": percentage >= 80,
+                  })}
+                >
+                  {decimalGrade.toFixed(1)}
+                </span>
+              </h2>
             </div>
 
-            <p className="text-2xl font-semibold text-gray-700 mb-2">
+            <p className="text-2xl font-semibold text-gray-800 mb-4">
+              Respondiste correctamente {correctAnswers} de {totalQuestions}{" "}
+              preguntas
+            </p>
+
+            <p className="text-xl font-medium text-gray-700 mb-2">
               {motivation.message}
             </p>
           </div>

@@ -1,0 +1,372 @@
+[
+  {
+    "question": "¿Cuál de los siguientes números es múltiplo de 6?",
+    "options": ["10", "12", "15", "17"],
+    "answer": 1,
+    "explanation": "12 es múltiplo de 6 porque 6 × 2 = 12.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál es el primer múltiplo común de 3 y 5?",
+    "options": ["10", "12", "15", "20"],
+    "answer": 2,
+    "explanation": "El primer múltiplo común de 3 y 5 es 15.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál es el mínimo común múltiplo (MCM) de 4 y 6?",
+    "options": ["8", "12", "18", "24"],
+    "answer": 1,
+    "explanation": "El MCM de 4 y 6 es 12, porque es el menor múltiplo común.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál es el MCM de 8 y 12?",
+    "options": ["16", "20", "24", "36"],
+    "answer": 2,
+    "explanation": "El MCM de 8 y 12 es 24.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál es el máximo común divisor (MCD) de 12 y 18?",
+    "options": ["2", "3", "6", "9"],
+    "answer": 2,
+    "explanation": "El MCD de 12 y 18 es 6, el mayor divisor común.",
+    "topic": "MCD"
+  },
+  {
+    "question": "¿Cuál es el MCD de 20 y 30?",
+    "options": ["5", "10", "15", "20"],
+    "answer": 1,
+    "explanation": "El MCD de 20 y 30 es 10.",
+    "topic": "MCD"
+  },
+  {
+    "question": "¿Cuál de estos números es divisible entre 5?",
+    "options": ["12", "25", "37", "44"],
+    "answer": 1,
+    "explanation": "25 es divisible entre 5 porque termina en 5.",
+    "topic": "Divisibilidad"
+  },
+  {
+    "question": "¿Cuál de estos números es divisible entre 10?",
+    "options": ["30", "42", "55", "73"],
+    "answer": 0,
+    "explanation": "30 termina en 0, por lo tanto es divisible entre 10.",
+    "topic": "Divisibilidad"
+  },
+  {
+    "question": "Si un número es divisible entre 10, también lo es entre...",
+    "options": ["2 y 5", "3 y 6", "4 y 8", "7 y 14"],
+    "answer": 0,
+    "explanation": "Todo número divisible entre 10 también lo es entre 2 y 5.",
+    "topic": "Divisibilidad"
+  },
+  {
+    "question": "¿Cuál es el MCM de 3 y 7?",
+    "options": ["10", "14", "21", "28"],
+    "answer": 2,
+    "explanation": "El MCM de 3 y 7 es 21.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál es el MCD de 16 y 24?",
+    "options": ["2", "4", "8", "12"],
+    "answer": 2,
+    "explanation": "El MCD de 16 y 24 es 8.",
+    "topic": "MCD"
+  },
+  {
+    "question": "¿Cuál es el MCD de 9 y 12?",
+    "options": ["2", "3", "4", "6"],
+    "answer": 1,
+    "explanation": "El MCD de 9 y 12 es 3.",
+    "topic": "MCD"
+  },
+  {
+    "question": "¿Cuál es el MCM de 9 y 12?",
+    "options": ["18", "24", "27", "36"],
+    "answer": 1,
+    "explanation": "El MCM de 9 y 12 es 36.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál de estos números es divisible entre 3?",
+    "options": ["12", "25", "41", "58"],
+    "answer": 0,
+    "explanation": "12 es divisible entre 3 porque 1+2 = 3, que es múltiplo de 3.",
+    "topic": "Divisibilidad"
+  },
+  {
+    "question": "¿Cuál de estos números NO es múltiplo de 4?",
+    "options": ["8", "12", "16", "18"],
+    "answer": 3,
+    "explanation": "18 no es múltiplo de 4.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál es el menor número divisible entre 2, 3 y 5?",
+    "options": ["15", "30", "45", "60"],
+    "answer": 1,
+    "explanation": "El menor número divisible entre 2, 3 y 5 es 30.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál es el MCD de 14 y 21?",
+    "options": ["2", "3", "7", "14"],
+    "answer": 2,
+    "explanation": "El MCD de 14 y 21 es 7.",
+    "topic": "MCD"
+  },
+  {
+    "question": "¿Cuál es el MCM de 5 y 9?",
+    "options": ["25", "30", "35", "45"],
+    "answer": 3,
+    "explanation": "El MCM de 5 y 9 es 45.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál de estos números es múltiplo de 9?",
+    "options": ["27", "32", "38", "44"],
+    "answer": 0,
+    "explanation": "27 es múltiplo de 9 porque 9 × 3 = 27.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál de estos números es divisor de 36?",
+    "options": ["4", "5", "7", "11"],
+    "answer": 0,
+    "explanation": "4 es divisor de 36 porque 36 ÷ 4 = 9 exacto.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "¿Cuál es el MCD de 18 y 27?",
+    "options": ["3", "6", "9", "12"],
+    "answer": 2,
+    "explanation": "El MCD de 18 y 27 es 9.",
+    "topic": "MCD"
+  },
+  {
+    "question": "¿Cuál es el MCM de 6 y 15?",
+    "options": ["15", "30", "45", "60"],
+    "answer": 1,
+    "explanation": "El MCM de 6 y 15 es 30.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál de estos números es divisible entre 2 y entre 3?",
+    "options": ["6", "9", "12", "15"],
+    "answer": 0,
+    "explanation": "6 es divisible entre 2 y 3.",
+    "topic": "Divisibilidad"
+  },
+  {
+    "question": "¿Cuál es el divisor más grande de 50?",
+    "options": ["5", "10", "25", "50"],
+    "answer": 3,
+    "explanation": "El mayor divisor de un número es el mismo número: 50.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "¿Cuál es el MCD de 32 y 40?",
+    "options": ["2", "4", "6", "8"],
+    "answer": 3,
+    "explanation": "El MCD de 32 y 40 es 8.",
+    "topic": "MCD"
+  },
+  {
+    "question": "¿Cuál de estos números es múltiplo de 12?",
+    "options": ["20", "24", "30", "32"],
+    "answer": 1,
+    "explanation": "24 es múltiplo de 12.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál es el MCM de 8 y 20?",
+    "options": ["20", "30", "40", "60"],
+    "answer": 2,
+    "explanation": "El MCM de 8 y 20 es 40.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál de estos números es divisor de 45?",
+    "options": ["3", "5", "9", "Todos los anteriores"],
+    "answer": 3,
+    "explanation": "3, 5 y 9 son divisores de 45.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "¿Cuál es el MCM de 10 y 12?",
+    "options": ["20", "30", "40", "60"],
+    "answer": 3,
+    "explanation": "El MCM de 10 y 12 es 60.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál es el MCD de 25 y 35?",
+    "options": ["5", "7", "10", "15"],
+    "answer": 0,
+    "explanation": "El MCD de 25 y 35 es 5.",
+    "topic": "MCD"
+  },
+  {
+    "question": "¿Cuál es el menor múltiplo de 9 mayor que 20?",
+    "options": ["21", "27", "30", "36"],
+    "answer": 1,
+    "explanation": "El múltiplo de 9 inmediatamente después de 20 es 27.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál es el MCD de 48 y 60?",
+    "options": ["6", "12", "18", "24"],
+    "answer": 1,
+    "explanation": "El MCD de 48 y 60 es 12.",
+    "topic": "MCD"
+  },
+  {
+    "question": "¿Cuál es el MCM de 9 y 15?",
+    "options": ["27", "30", "36", "45"],
+    "answer": 1,
+    "explanation": "El MCM de 9 y 15 es 45.",
+    "topic": "MCM"
+  },
+  {
+    "question": "¿Cuál de estos números es divisible entre 3 y 5?",
+    "options": ["10", "15", "20", "25"],
+    "answer": 1,
+    "explanation": "15 es divisible entre 3 y 5.",
+    "topic": "Divisibilidad"
+  },
+  {
+    "question": "¿Cuál es el divisor más pequeño de cualquier número?",
+    "options": ["0", "1", "2", "El mismo número"],
+    "answer": 1,
+    "explanation": "1 es divisor de todos los números.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "María tiene 12 lápices y quiere repartirlos en partes iguales entre 4 amigas. ¿Cuántos lápices recibe cada una?",
+    "options": ["2", "3", "4", "6"],
+    "answer": 2,
+    "explanation": "12 ÷ 4 = 3. Cada amiga recibe 3 lápices.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "Un semáforo cambia cada 20 segundos y otro cada 30 segundos. ¿Cada cuántos segundos cambiarán al mismo tiempo?",
+    "options": ["40", "50", "60", "120"],
+    "answer": 2,
+    "explanation": "El MCM de 20 y 30 es 60. Coinciden cada 60 segundos.",
+    "topic": "MCM"
+  },
+  {
+    "question": "Pedro tiene 18 galletas y Luis tiene 24. Quieren ponerlas en bolsas con la misma cantidad y que no sobre ninguna. ¿Cuál es la mayor cantidad de galletas por bolsa?",
+    "options": ["2", "3", "6", "12"],
+    "answer": 2,
+    "explanation": "El MCD de 18 y 24 es 6, entonces pueden poner 6 galletas en cada bolsa.",
+    "topic": "MCD"
+  },
+  {
+    "question": "Un número termina en 0. ¿Siempre será divisible entre…?",
+    "options": ["2 solamente", "5 solamente", "2 y 5", "Ninguno"],
+    "answer": 2,
+    "explanation": "Si un número termina en 0, es divisible entre 2 y 5.",
+    "topic": "Divisibilidad"
+  },
+  {
+    "question": "Ana tiene 15 caramelos y quiere repartirlos en bolsas con la misma cantidad, sin que sobre ninguno. ¿Cuántas formas distintas de repartir puede hacer?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 1,
+    "explanation": "Los divisores de 15 son 1, 3, 5 y 15 → en total 4 formas.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "Un granjero tiene 36 huevos y quiere ponerlos en cajas de igual tamaño. Si usa 6 cajas, ¿cuántos huevos pondrá en cada caja?",
+    "options": ["4", "5", "6", "12"],
+    "answer": 3,
+    "explanation": "36 ÷ 6 = 12. Cada caja tendrá 12 huevos.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "¿Cuál es el menor número que es divisible entre 8 y 12?",
+    "options": ["24", "36", "48", "60"],
+    "answer": 0,
+    "explanation": "El MCM de 8 y 12 es 24.",
+    "topic": "MCM"
+  },
+  {
+    "question": "Un reloj suena cada 15 minutos y otro cada 20 minutos. ¿Cada cuántos minutos sonarán juntos?",
+    "options": ["30", "45", "60", "75"],
+    "answer": 2,
+    "explanation": "El MCM de 15 y 20 es 60, entonces coinciden cada 60 minutos.",
+    "topic": "MCM"
+  },
+  {
+    "question": "Si un número termina en 5, ¿siempre será divisible entre…?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 3,
+    "explanation": "Todo número que termina en 5 es divisible entre 5.",
+    "topic": "Divisibilidad"
+  },
+  {
+    "question": "Un grupo de estudiantes forma filas de 12 y también de 18, sin que sobre ninguno. ¿Cuál es el menor número posible de estudiantes?",
+    "options": ["36", "54", "72", "90"],
+    "answer": 2,
+    "explanation": "El MCM de 12 y 18 es 36. El grupo debe tener al menos 36 estudiantes.",
+    "topic": "MCM"
+  },
+  {
+    "question": "Si 20 es múltiplo de 5, entonces 5 es...",
+    "options": ["Múltiplo de 20", "Divisor de 20", "Mayor que 20", "Impar"],
+    "answer": 1,
+    "explanation": "Si 20 es múltiplo de 5, significa que 5 divide exactamente a 20.",
+    "topic": "Relación múltiplos-divisores"
+  },
+  {
+    "question": "Si un número A es múltiplo de B, entonces...",
+    "options": [
+      "A también es divisor de B",
+      "B es divisor de A",
+      "A siempre es menor que B",
+      "B siempre termina en 0"
+    ],
+    "answer": 1,
+    "explanation": "La relación básica: si A es múltiplo de B, entonces B es divisor de A.",
+    "topic": "Relación múltiplos-divisores"
+  },
+  {
+    "question": "¿Qué relación hay entre 24 y 6?",
+    "options": [
+      "24 es divisor de 6",
+      "24 es múltiplo de 6",
+      "6 es múltiplo de 24",
+      "No tienen relación"
+    ],
+    "answer": 1,
+    "explanation": "24 es múltiplo de 6 y al mismo tiempo 6 es divisor de 24.",
+    "topic": "Relación múltiplos-divisores"
+  },
+  {
+    "question": "Si 36 ÷ 9 = 4 exacto, podemos decir que...",
+    "options": [
+      "36 es divisor de 9",
+      "9 es múltiplo de 36",
+      "36 es múltiplo de 9 y 9 es divisor de 36",
+      "Ninguna es correcta"
+    ],
+    "answer": 2,
+    "explanation": "36 es múltiplo de 9, y 9 es divisor de 36.",
+    "topic": "Relación múltiplos-divisores"
+  },
+  {
+    "question": "Si un número B es divisor de A, entonces...",
+    "options": [
+      "A es múltiplo de B",
+      "B es múltiplo de A",
+      "A es siempre menor que B",
+      "A y B no tienen relación"
+    ],
+    "answer": 0,
+    "explanation": "Si B divide a A, entonces A es múltiplo de B.",
+    "topic": "Relación múltiplos-divisores"
+  }
+]

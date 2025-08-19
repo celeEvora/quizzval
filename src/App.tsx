@@ -1,25 +1,28 @@
 import { useState } from "react";
-import SubjectSelection from "./components/SubjectSelection";
-import WeekSelection from "./components/WeekSelection";
-import Quiz from "./components/quiz";
-import Results from "./components/Results";
 import { Subject, AppState, UserAnswer } from "./types";
 import { questionsData } from "./data/questions";
+import { pickRandomQuestions } from "./utils/randomQuestions";
+import SubjectSelection from "./components/SubjectSelection";
+import WeekSelection from "./components/WeekSelection";
+import Quiz from "./components/Quiz";
+import Results from "./components/Results";
 
 function App() {
   const [appState, setAppState] = useState<AppState>("subject-selection");
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [selectedWeek, setSelectedWeek] = useState<string | null>(null);
   const [userAnswers, setUserAnswers] = useState<UserAnswer[]>([]);
+  const [questionCount, setQuestionCount] = useState<number>(15);
 
   const handleSelectSubject = (subject: Subject) => {
     setSelectedSubject(subject);
     setAppState("week-selection");
   };
 
-  const handleSelectWeek = (week: string) => {
+  const handleSelectWeek = (week: string, count: number) => {
     setSelectedWeek(week);
     setAppState("quiz");
+    setQuestionCount(count);
   };
 
   const handleQuizComplete = (answers: UserAnswer[]) => {
@@ -60,7 +63,9 @@ function App() {
   }
 
   if (appState === "quiz" && selectedSubject && selectedWeek) {
-    const questions = questionsData[selectedSubject][selectedWeek];
+    const allQuestions = questionsData[selectedSubject][selectedWeek];
+    const questions = pickRandomQuestions(allQuestions, questionCount);
+
     return (
       <Quiz
         subject={selectedSubject}

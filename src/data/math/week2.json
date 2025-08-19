@@ -1,0 +1,305 @@
+[
+  {
+    "question": "¿Cuántos lados tiene un hexágono regular?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 1,
+    "explanation": "Un hexágono tiene 6 lados iguales.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "¿Cómo se llama un polígono regular de 8 lados?",
+    "options": ["Hexágono", "Octágono", "Heptágono", "Decágono"],
+    "answer": 1,
+    "explanation": "Un polígono de 8 lados es un octágono.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "El centro de un polígono regular es...",
+    "options": [
+      "Un vértice cualquiera",
+      "El punto donde se cruzan las diagonales",
+      "El punto equidistante de todos los vértices",
+      "El lado más largo"
+    ],
+    "answer": 2,
+    "explanation": "El centro de un polígono regular está a la misma distancia de todos los vértices.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "¿Cómo se llama un polígono regular de 10 lados?",
+    "options": ["Decágono", "Nonágono", "Octágono", "Hendecágono"],
+    "answer": 0,
+    "explanation": "Un polígono de 10 lados es un decágono.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "Un cuadrado es un polígono regular porque...",
+    "options": [
+      "Tiene lados desiguales",
+      "Tiene lados iguales y ángulos iguales",
+      "Tiene solo 3 lados",
+      "No tiene ángulos rectos"
+    ],
+    "answer": 1,
+    "explanation": "Un cuadrado es regular porque sus lados y ángulos son iguales.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "¿Cuál instrumento se usa para trazar un círculo?",
+    "options": ["Regla", "Compás", "Transportador", "Escuadra"],
+    "answer": 1,
+    "explanation": "El compás se usa para trazar circunferencias y círculos.",
+    "topic": "Trazado"
+  },
+  {
+    "question": "¿Qué instrumento sirve para medir ángulos?",
+    "options": ["Compás", "Transportador", "Regla", "Escuadra"],
+    "answer": 1,
+    "explanation": "El transportador mide ángulos en grados.",
+    "topic": "Trazado"
+  },
+  {
+    "question": "¿Cuál instrumento sirve para medir longitudes rectas?",
+    "options": ["Transportador", "Compás", "Regla", "Escuadra"],
+    "answer": 2,
+    "explanation": "La regla mide longitudes rectas.",
+    "topic": "Trazado"
+  },
+  {
+    "question": "¿Cuánto es 5 × 0.2?",
+    "options": ["0.5", "1", "1.5", "2"],
+    "answer": 1,
+    "explanation": "5 × 0.2 = 1.",
+    "topic": "Multiplicación natural × decimal"
+  },
+  {
+    "question": "¿Cuánto es 12 × 0.5?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 1,
+    "explanation": "12 × 0.5 = 6, la mitad de 12.",
+    "topic": "Multiplicación natural × decimal"
+  },
+  {
+    "question": "¿Cuánto es 7 × 0.3?",
+    "options": ["2.1", "2.3", "2.5", "3"],
+    "answer": 0,
+    "explanation": "7 × 0.3 = 2.1.",
+    "topic": "Multiplicación natural × decimal"
+  },
+  {
+    "question": "¿Cuánto es 3.5 × 2?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 2,
+    "explanation": "3.5 × 2 = 7.",
+    "topic": "Multiplicación decimal × natural"
+  },
+  {
+    "question": "¿Cuánto es 4.2 × 0.5?",
+    "options": ["1.8", "2.1", "2.5", "3"],
+    "answer": 1,
+    "explanation": "4.2 × 0.5 = 2.1.",
+    "topic": "Multiplicación decimal × decimal"
+  },
+  {
+    "question": "¿Cuánto es 1.2 × 0.3?",
+    "options": ["0.24", "0.32", "0.36", "0.42"],
+    "answer": 0,
+    "explanation": "1.2 × 0.3 = 0.36.",
+    "topic": "Multiplicación decimal × decimal"
+  },
+  {
+    "question": "¿Cuánto es 0.8 × 0.4?",
+    "options": ["0.16", "0.24", "0.28", "0.32"],
+    "answer": 0,
+    "explanation": "0.8 × 0.4 = 0.32.",
+    "topic": "Multiplicación decimal × decimal"
+  },
+  {
+    "question": "¿Cuánto es 10 ÷ 0.5?",
+    "options": ["15", "18", "20", "25"],
+    "answer": 2,
+    "explanation": "10 ÷ 0.5 = 20 porque dividir entre medio equivale a multiplicar por 2.",
+    "topic": "División natural ÷ decimal"
+  },
+  {
+    "question": "¿Cuánto es 6 ÷ 0.2?",
+    "options": ["20", "25", "28", "30"],
+    "answer": 0,
+    "explanation": "6 ÷ 0.2 = 30.",
+    "topic": "División natural ÷ decimal"
+  },
+  {
+    "question": "¿Cuánto es 8 ÷ 0.4?",
+    "options": ["16", "18", "20", "22"],
+    "answer": 0,
+    "explanation": "8 ÷ 0.4 = 20.",
+    "topic": "División natural ÷ decimal"
+  },
+  {
+    "question": "Un triángulo equilátero es regular porque...",
+    "options": [
+      "Tiene un ángulo recto",
+      "Todos sus lados son iguales",
+      "Tiene solo dos lados iguales",
+      "No tiene centro"
+    ],
+    "answer": 1,
+    "explanation": "Un triángulo equilátero tiene todos sus lados iguales y sus ángulos también.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "¿Cómo se llama un polígono regular de 12 lados?",
+    "options": ["Decágono", "Dodecágono", "Hendecágono", "Octágono"],
+    "answer": 1,
+    "explanation": "Un polígono de 12 lados se llama dodecágono.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "¿Cómo se llama un polígono de 5 lados?",
+    "options": ["Pentágono", "Hexágono", "Heptágono", "Octágono"],
+    "answer": 0,
+    "explanation": "Un polígono de 5 lados se llama pentágono.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "¿Cuál es el centro de un cuadrado regular?",
+    "options": [
+      "El punto medio de un lado",
+      "El punto donde se cruzan las diagonales",
+      "Uno de los vértices",
+      "No tiene centro"
+    ],
+    "answer": 1,
+    "explanation": "En un cuadrado, las diagonales se cruzan en el centro equidistante a los vértices.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "¿Cuál de estos polígonos es regular?",
+    "options": [
+      "Rectángulo",
+      "Trapecio",
+      "Hexágono con lados iguales",
+      "Romboide"
+    ],
+    "answer": 2,
+    "explanation": "El hexágono con lados y ángulos iguales es regular.",
+    "topic": "Polígonos"
+  },
+  {
+    "question": "¿Qué instrumento usarías para trazar un polígono de lados iguales?",
+    "options": ["Transportador", "Compás y regla", "Escuadra", "Cartabón"],
+    "answer": 1,
+    "explanation": "Con regla y compás se pueden trazar polígonos regulares.",
+    "topic": "Trazado"
+  },
+  {
+    "question": "¿Cuánto es 2.5 × 4?",
+    "options": ["8", "9", "10", "11"],
+    "answer": 2,
+    "explanation": "2.5 × 4 = 10.",
+    "topic": "Multiplicación decimal × natural"
+  },
+  {
+    "question": "¿Cuánto es 0.9 × 3?",
+    "options": ["2.4", "2.6", "2.7", "3"],
+    "answer": 2,
+    "explanation": "0.9 × 3 = 2.7.",
+    "topic": "Multiplicación decimal × natural"
+  },
+  {
+    "question": "¿Cuánto es 0.25 × 0.4?",
+    "options": ["0.01", "0.05", "0.1", "0.15"],
+    "answer": 2,
+    "explanation": "0.25 × 0.4 = 0.10.",
+    "topic": "Multiplicación decimal × decimal"
+  },
+  {
+    "question": "¿Cuánto es 0.6 × 0.7?",
+    "options": ["0.30", "0.36", "0.40", "0.42"],
+    "answer": 1,
+    "explanation": "0.6 × 0.7 = 0.42.",
+    "topic": "Multiplicación decimal × decimal"
+  },
+  {
+    "question": "¿Cuánto es 15 ÷ 0.5?",
+    "options": ["25", "28", "30", "35"],
+    "answer": 2,
+    "explanation": "15 ÷ 0.5 = 30.",
+    "topic": "División natural ÷ decimal"
+  },
+  {
+    "question": "¿Cuánto es 9 ÷ 0.3?",
+    "options": ["25", "27", "29", "30"],
+    "answer": 1,
+    "explanation": "9 ÷ 0.3 = 30, porque 0.3 × 30 = 9.",
+    "topic": "División natural ÷ decimal"
+  },
+  {
+    "question": "¿Cuánto es 4 ÷ 0.25?",
+    "options": ["12", "14", "15", "16"],
+    "answer": 3,
+    "explanation": "4 ÷ 0.25 = 16, porque 0.25 es 1/4.",
+    "topic": "División natural ÷ decimal"
+  },
+  {
+    "question": "Si un número decimal es menor que 1 y multiplicas un número natural por él, el resultado es...",
+    "options": [
+      "Mayor que el número inicial",
+      "Menor que el número inicial",
+      "Siempre igual a 1",
+      "Imposible de calcular"
+    ],
+    "answer": 1,
+    "explanation": "Multiplicar por un decimal menor que 1 reduce el número.",
+    "topic": "Multiplicación natural × decimal"
+  },
+  {
+    "question": "¿Cuál de estos números es el resultado de 0.2 × 0.2?",
+    "options": ["0.02", "0.04", "0.2", "0.22"],
+    "answer": 1,
+    "explanation": "0.2 × 0.2 = 0.04.",
+    "topic": "Multiplicación decimal × decimal"
+  },
+  {
+    "question": "¿Cuánto es 3.6 × 0.5?",
+    "options": ["1.8", "2", "2.5", "3"],
+    "answer": 0,
+    "explanation": "3.6 × 0.5 = 1.8.",
+    "topic": "Multiplicación decimal × decimal"
+  },
+  {
+    "question": "¿Cuánto es 2.4 × 0.25?",
+    "options": ["0.4", "0.5", "0.6", "0.7"],
+    "answer": 2,
+    "explanation": "2.4 × 0.25 = 0.6.",
+    "topic": "Multiplicación decimal × decimal"
+  },
+  {
+    "question": "¿Cuánto es 7.2 ÷ 0.6?",
+    "options": ["10", "11", "12", "13"],
+    "answer": 2,
+    "explanation": "7.2 ÷ 0.6 = 12.",
+    "topic": "División natural ÷ decimal"
+  },
+  {
+    "question": "¿Cuánto es 2.1 ÷ 0.7?",
+    "options": ["2", "2.5", "3", "3.5"],
+    "answer": 2,
+    "explanation": "2.1 ÷ 0.7 = 3.",
+    "topic": "División natural ÷ decimal"
+  },
+  {
+    "question": "¿Cuánto es 5.5 × 0.2?",
+    "options": ["0.9", "1", "1.1", "1.2"],
+    "answer": 2,
+    "explanation": "5.5 × 0.2 = 1.1.",
+    "topic": "Multiplicación decimal × decimal"
+  },
+  {
+    "question": "¿Cuál es el polígono regular que tiene más lados de los siguientes?",
+    "options": ["Pentágono", "Hexágono", "Octágono", "Decágono"],
+    "answer": 3,
+    "explanation": "El decágono tiene 10 lados, más que los demás listados.",
+    "topic": "Polígonos"
+  }
+]

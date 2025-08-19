@@ -1,0 +1,320 @@
+[
+  {
+    "question": "¿Qué es una novela?",
+    "options": [
+      "Un texto narrativo extenso con personajes y una trama",
+      "Un poema de amor en verso",
+      "Una noticia corta",
+      "Un texto dramático para teatro"
+    ],
+    "answer": 0,
+    "explanation": "La novela es un texto narrativo, generalmente en prosa, con una trama extensa y personajes desarrollados.",
+    "topic": "Novela"
+  },
+  {
+    "question": "¿Cuál es la principal diferencia entre una novela y un cuento?",
+    "options": [
+      "La extensión y la complejidad",
+      "Que la novela siempre es real",
+      "Que el cuento no tiene personajes",
+      "Que la novela está escrita en verso"
+    ],
+    "answer": 0,
+    "explanation": "La novela es más extensa y desarrolla personajes y tramas con mayor complejidad.",
+    "topic": "Novela"
+  },
+  {
+    "question": "¿Cuál de estos es un elemento esencial de la novela?",
+    "options": ["Personajes", "Rima", "Verso", "Metáfora"],
+    "answer": 0,
+    "explanation": "Los personajes son fundamentales para el desarrollo narrativo de la novela.",
+    "topic": "Novela"
+  },
+  {
+    "question": "¿Cómo suele estar estructurada una novela?",
+    "options": [
+      "Introducción, desarrollo y desenlace",
+      "Planteamiento, nudo y desenlace",
+      "Inicio y final sin desarrollo",
+      "Solo un clímax"
+    ],
+    "answer": 1,
+    "explanation": "La estructura clásica de la novela es planteamiento, nudo y desenlace.",
+    "topic": "Novela"
+  },
+  {
+    "question": "¿Qué es el narrador en una novela?",
+    "options": [
+      "La voz que cuenta la historia",
+      "Un personaje secundario",
+      "El autor real",
+      "El lector que interpreta"
+    ],
+    "answer": 0,
+    "explanation": "El narrador es quien relata los hechos, puede ser protagonista, testigo o externo.",
+    "topic": "Novela"
+  },
+  {
+    "question": "¿Qué función cumplen los diálogos en una novela?",
+    "options": [
+      "Dar ritmo y mostrar la voz de los personajes",
+      "Servir como introducción",
+      "Explicar siempre la moraleja",
+      "Reemplazar la narración"
+    ],
+    "answer": 0,
+    "explanation": "Los diálogos permiten conocer a los personajes y hacen más dinámica la narración.",
+    "topic": "Novela"
+  },
+  {
+    "question": "¿Qué elemento marca el conflicto principal de la novela?",
+    "options": ["El nudo", "El planteamiento", "El narrador", "La descripción"],
+    "answer": 0,
+    "explanation": "El nudo es donde se presenta el conflicto que mueve la acción.",
+    "topic": "Novela"
+  },
+  {
+    "question": "Un personaje que cambia a lo largo de la novela se llama...",
+    "options": ["Estático", "Dinámico", "Simple", "Secundario"],
+    "answer": 1,
+    "explanation": "Los personajes dinámicos evolucionan en el transcurso de la historia.",
+    "topic": "Novela"
+  },
+  {
+    "question": "El tiempo narrativo en la novela puede ser...",
+    "options": [
+      "Lineal o con saltos temporales",
+      "Siempre circular",
+      "Exclusivamente futuro",
+      "Solo en presente"
+    ],
+    "answer": 0,
+    "explanation": "El tiempo narrativo puede avanzar de forma lineal o con saltos (flashbacks, anticipaciones).",
+    "topic": "Novela"
+  },
+  {
+    "question": "¿Qué género literario pertenece a la novela?",
+    "options": ["Narrativo", "Lírico", "Dramático", "Épico"],
+    "answer": 0,
+    "explanation": "La novela pertenece al género narrativo.",
+    "topic": "Novela"
+  },
+  {
+    "question": "¿Qué es una oda?",
+    "options": [
+      "Un poema lírico que expresa admiración o elogio",
+      "Un relato narrativo breve",
+      "Una noticia periodística",
+      "Un ensayo de crítica literaria"
+    ],
+    "answer": 0,
+    "explanation": "La oda es un poema lírico que exalta sentimientos, personas u objetos.",
+    "topic": "Poesía - Oda"
+  },
+  {
+    "question": "¿Qué caracteriza el estilo de Pablo Neruda?",
+    "options": [
+      "Lenguaje sencillo y simbólico",
+      "Versos técnicos y científicos",
+      "Uso exclusivo de prosa",
+      "Solo escribe teatro"
+    ],
+    "answer": 0,
+    "explanation": "Neruda utiliza un lenguaje accesible cargado de símbolos y emociones.",
+    "topic": "Poesía - Neruda"
+  },
+  {
+    "question": "¿Qué caracteriza la poesía de Nicanor Parra?",
+    "options": [
+      "La antipoesía, con lenguaje cotidiano y humor",
+      "El uso de la métrica clásica",
+      "El dramatismo exagerado",
+      "La musicalidad de versos rimados"
+    ],
+    "answer": 0,
+    "explanation": "Parra creó la antipoesía, con un lenguaje más directo, irónico y cercano a lo cotidiano.",
+    "topic": "Poesía - Parra"
+  },
+  {
+    "question": "Una oda a la naturaleza expresa...",
+    "options": [
+      "Admiración hacia la naturaleza",
+      "Datos científicos de la naturaleza",
+      "Un cuento sobre animales",
+      "Un ensayo político"
+    ],
+    "answer": 0,
+    "explanation": "Las odas suelen ensalzar elementos de la naturaleza con tono emotivo.",
+    "topic": "Poesía - Oda"
+  },
+  {
+    "question": "¿Qué tipo de sentimiento suele predominar en la oda?",
+    "options": ["Elogio", "Crítica", "Ironía", "Neutralidad"],
+    "answer": 0,
+    "explanation": "La oda resalta la admiración y el elogio hacia su objeto.",
+    "topic": "Poesía - Oda"
+  },
+  {
+    "question": "¿Qué poema pertenece a Pablo Neruda?",
+    "options": [
+      "Oda a la cebolla",
+      "Poema de los números",
+      "La araucana",
+      "Cien años de soledad"
+    ],
+    "answer": 0,
+    "explanation": "Neruda escribió odas a objetos cotidianos como la cebolla, el tomate o el mar.",
+    "topic": "Poesía - Neruda"
+  },
+  {
+    "question": "¿Qué significa el término 'antipoesía' en Parra?",
+    "options": [
+      "Romper con lo solemne de la poesía tradicional",
+      "Un estilo de novela",
+      "Un ensayo crítico",
+      "Una fábula en verso"
+    ],
+    "answer": 0,
+    "explanation": "La antipoesía es una forma de escribir poesía con humor, ironía y lenguaje común.",
+    "topic": "Poesía - Parra"
+  },
+  {
+    "question": "¿Qué tienen en común Neruda y Parra?",
+    "options": [
+      "Son poetas chilenos reconocidos",
+      "Escribieron únicamente novelas",
+      "Se dedicaron al periodismo",
+      "Nunca usaron metáforas"
+    ],
+    "answer": 0,
+    "explanation": "Ambos son poetas chilenos, aunque con estilos muy diferentes.",
+    "topic": "Poesía - Neruda/Parra"
+  },
+  {
+    "question": "¿Cuál es una característica central de la poesía de Neruda?",
+    "options": [
+      "El amor y lo social",
+      "La matemática",
+      "El humor político",
+      "La filosofía abstracta"
+    ],
+    "answer": 0,
+    "explanation": "Neruda aborda tanto el amor como temas sociales y políticos en su poesía.",
+    "topic": "Poesía - Neruda"
+  },
+  {
+    "question": "¿Cuál de estos podría ser tema de una oda?",
+    "options": [
+      "Una rosa",
+      "Una fórmula matemática",
+      "Un informe",
+      "Una noticia policial"
+    ],
+    "answer": 0,
+    "explanation": "Las odas exaltan elementos, incluso objetos sencillos como una rosa o la cebolla.",
+    "topic": "Poesía - Oda"
+  },
+  {
+    "question": "¿Qué es un reportaje periodístico?",
+    "options": [
+      "Un texto que informa y profundiza sobre un tema de interés",
+      "Un poema lírico",
+      "Una novela breve",
+      "Una carta personal"
+    ],
+    "answer": 0,
+    "explanation": "El reportaje periodístico analiza e informa detalladamente un tema.",
+    "topic": "Reportaje"
+  },
+  {
+    "question": "¿Cuál es una característica del reportaje?",
+    "options": [
+      "Presenta información verificada y detallada",
+      "Usa siempre rima",
+      "Debe ser narrado en primera persona",
+      "Solo incluye opinión"
+    ],
+    "answer": 0,
+    "explanation": "El reportaje se caracteriza por la objetividad y la investigación profunda.",
+    "topic": "Reportaje"
+  },
+  {
+    "question": "¿Qué diferencia hay entre una noticia y un reportaje?",
+    "options": [
+      "La noticia informa brevemente, el reportaje profundiza",
+      "La noticia es más larga que el reportaje",
+      "El reportaje no necesita fuentes",
+      "No hay diferencia"
+    ],
+    "answer": 0,
+    "explanation": "La noticia informa rápidamente, mientras que el reportaje desarrolla el tema.",
+    "topic": "Reportaje"
+  },
+  {
+    "question": "¿Cuál es la función social del reportaje?",
+    "options": [
+      "Informar y generar conciencia en la sociedad",
+      "Servir como entretenimiento poético",
+      "Crear historias ficticias",
+      "Dar consejos personales"
+    ],
+    "answer": 0,
+    "explanation": "El reportaje informa y ayuda a comprender problemas o realidades sociales.",
+    "topic": "Reportaje"
+  },
+  {
+    "question": "¿Qué estructura básica tiene un reportaje?",
+    "options": [
+      "Título, entrada, desarrollo y cierre",
+      "Verso, rima y estrofa",
+      "Inicio, clímax y desenlace",
+      "Preguntas y respuestas"
+    ],
+    "answer": 0,
+    "explanation": "El reportaje periodístico se organiza en título, entrada, desarrollo y cierre.",
+    "topic": "Reportaje"
+  },
+  {
+    "question": "¿Qué tipo de lenguaje se usa en el reportaje?",
+    "options": [
+      "Claro y objetivo",
+      "Poético",
+      "Exclusivamente literario",
+      "Rimbombante"
+    ],
+    "answer": 0,
+    "explanation": "El reportaje utiliza un lenguaje claro, objetivo y accesible.",
+    "topic": "Reportaje"
+  },
+  {
+    "question": "Un reportaje de investigación se caracteriza por...",
+    "options": [
+      "Profundizar en un tema con fuentes y datos",
+      "Ser un relato ficticio",
+      "Usar versos y metáforas",
+      "Ser una obra teatral"
+    ],
+    "answer": 0,
+    "explanation": "El reportaje de investigación recopila información de diversas fuentes.",
+    "topic": "Reportaje"
+  },
+  {
+    "question": "¿Qué recurso puede incluir un reportaje periodístico?",
+    "options": ["Entrevistas", "Sonetos", "Cuentos", "Novelas"],
+    "answer": 0,
+    "explanation": "Los reportajes suelen apoyarse en entrevistas y testimonios.",
+    "topic": "Reportaje"
+  },
+  {
+    "question": "¿Qué diferencia hay entre reportaje y crónica?",
+    "options": [
+      "La crónica narra en orden temporal, el reportaje analiza en profundidad",
+      "El reportaje siempre es ficticio",
+      "La crónica nunca habla de hechos reales",
+      "No existe diferencia"
+    ],
+    "answer": 0,
+    "explanation": "La crónica sigue un orden temporal, mientras que el reportaje desarrolla un tema.",
+    "topic": "Reportaje"
+  }
+]
