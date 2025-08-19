@@ -34,7 +34,9 @@ export default function WeekSelection({
   const current = subjectInfo[subject];
 
   return (
-    <div className={`min-h-screen bg-gradient-to-br ${current.bgColor} p-4`}>
+    <div
+      className={`min-h-screen bg-gradient-to-br ${current.bgColor} px-4 py-10`}
+    >
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center mb-8">
           <button
