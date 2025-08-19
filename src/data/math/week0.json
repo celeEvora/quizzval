@@ -1,0 +1,197 @@
+[
+  {
+    "question": "Un múltiplo de un número es...",
+    "options": [
+      "Un número que lo divide exacto",
+      "El resultado de multiplicarlo por otro número",
+      "Un número más pequeño que él",
+      "Un número con el mismo número de cifras"
+    ],
+    "answer": 1,
+    "explanation": "Un múltiplo se obtiene multiplicando el número por otro número natural.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál de estos es un múltiplo de 3?",
+    "options": ["7", "9", "11", "13"],
+    "answer": 1,
+    "explanation": "9 es múltiplo de 3 porque 3 × 3 = 9.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál de estos es un múltiplo de 5?",
+    "options": ["8", "12", "15", "17"],
+    "answer": 2,
+    "explanation": "15 es múltiplo de 5 porque 5 × 3 = 15.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "Un divisor de un número es...",
+    "options": [
+      "Un número que lo multiplica",
+      "Un número que lo divide exacto, sin residuo",
+      "Un número más grande que él",
+      "Un número que siempre termina en 0"
+    ],
+    "answer": 1,
+    "explanation": "Un divisor es un número que cabe de forma exacta en otro al dividirlo.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "¿Cuál de estos es divisor de 12?",
+    "options": ["4", "5", "7", "11"],
+    "answer": 0,
+    "explanation": "4 es divisor de 12 porque 12 ÷ 4 = 3 exacto.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "Si tienes 12 caramelos y los repartes en 3 bolsitas iguales, ¿cuántos caramelos van en cada una?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2,
+    "explanation": "12 ÷ 3 = 4. Cada bolsa tiene 4 caramelos.",
+    "topic": "Divisores con objetos"
+  },
+  {
+    "question": "¿Cuál de estos es múltiplo de 10?",
+    "options": ["12", "20", "25", "32"],
+    "answer": 1,
+    "explanation": "20 es múltiplo de 10 porque 10 × 2 = 20.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "Si un número termina en 0, siempre será múltiplo de...",
+    "options": ["2", "5", "10", "Todas las anteriores"],
+    "answer": 3,
+    "explanation": "Un número terminado en 0 es múltiplo de 2, 5 y 10.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "Si tienes 15 canicas y las repartes en 5 cajas, ¿cuántas van en cada una?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 1,
+    "explanation": "15 ÷ 5 = 3. Cada caja tendrá 3 canicas.",
+    "topic": "Divisores con objetos"
+  },
+  {
+    "question": "¿Cuál de estos números es múltiplo de 4?",
+    "options": ["8", "10", "12", "14"],
+    "answer": 0,
+    "explanation": "8 es múltiplo de 4 porque 4 × 2 = 8.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál de estos es divisor de 20?",
+    "options": ["3", "4", "6", "7"],
+    "answer": 1,
+    "explanation": "20 ÷ 4 = 5, por eso 4 es divisor de 20.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "Si un número es múltiplo de 2, significa que...",
+    "options": [
+      "Siempre termina en 5",
+      "Es un número impar",
+      "Es un número par",
+      "Nunca termina en 0"
+    ],
+    "answer": 2,
+    "explanation": "Todo múltiplo de 2 es un número par.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál de estos es múltiplo de 7?",
+    "options": ["14", "15", "18", "20"],
+    "answer": 0,
+    "explanation": "14 es múltiplo de 7 porque 7 × 2 = 14.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "Si tienes 24 galletas y las repartes en 6 platos iguales, ¿cuántas galletas recibe cada plato?",
+    "options": ["2", "3", "4", "6"],
+    "answer": 2,
+    "explanation": "24 ÷ 6 = 4.",
+    "topic": "Divisores con objetos"
+  },
+  {
+    "question": "¿Cuál de estos números es múltiplo de 9?",
+    "options": ["18", "20", "22", "24"],
+    "answer": 0,
+    "explanation": "18 es múltiplo de 9 porque 9 × 2 = 18.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "Si 5 × ? = 25, ¿qué número falta?",
+    "options": ["3", "4", "5", "6"],
+    "answer": 2,
+    "explanation": "5 × 5 = 25, por lo tanto 25 es múltiplo de 5.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "Un número que se puede dividir exactamente entre 1 y entre sí mismo es...",
+    "options": [
+      "Un múltiplo",
+      "Un divisor",
+      "Un número primo",
+      "Un número compuesto"
+    ],
+    "answer": 2,
+    "explanation": "Todo número primo tiene solo 2 divisores: 1 y él mismo.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "¿Cuál de estos NO es múltiplo de 3?",
+    "options": ["6", "9", "12", "14"],
+    "answer": 3,
+    "explanation": "14 no es múltiplo de 3.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "Si un número termina en 5, ¿siempre será múltiplo de...?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 3,
+    "explanation": "Todo número que termina en 5 es múltiplo de 5.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "¿Cuál de estos es divisor de 30?",
+    "options": ["4", "5", "7", "9"],
+    "answer": 1,
+    "explanation": "30 ÷ 5 = 6, entonces 5 es divisor de 30.",
+    "topic": "Divisores"
+  },
+  {
+    "question": "¿Cuál de estos es múltiplo de 8?",
+    "options": ["14", "16", "18", "20"],
+    "answer": 1,
+    "explanation": "16 es múltiplo de 8 porque 8 × 2 = 16.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "Si tienes 9 pelotas y las pones en cajas de 3, ¿cuántas cajas llenas?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 1,
+    "explanation": "9 ÷ 3 = 3. Llenas 3 cajas.",
+    "topic": "Divisores con objetos"
+  },
+  {
+    "question": "¿Cuál de estos es múltiplo de 11?",
+    "options": ["21", "22", "23", "24"],
+    "answer": 1,
+    "explanation": "22 es múltiplo de 11 porque 11 × 2 = 22.",
+    "topic": "Múltiplos"
+  },
+  {
+    "question": "Si tienes 20 naranjas y las repartes en 4 canastas iguales, ¿cuántas van en cada una?",
+    "options": ["4", "5", "6", "7"],
+    "answer": 1,
+    "explanation": "20 ÷ 4 = 5.",
+    "topic": "Divisores con objetos"
+  },
+  {
+    "question": "¿Cuál de estos NO es divisor de 18?",
+    "options": ["2", "3", "6", "5"],
+    "answer": 3,
+    "explanation": "18 ÷ 5 no es exacto, entonces 5 no es divisor de 18.",
+    "topic": "Divisores"
+  }
+]

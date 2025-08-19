@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { ArrowLeft, CheckCircle, XCircle, ArrowRight } from "lucide-react";
 import { Question, UserAnswer, Subject } from "../types";
+import bgMath from "../assets/img/bg-math.webp";
+import bgLanguage from "../assets/img/bg-language.webp";
 
 interface QuizProps {
   subject: Subject;
@@ -60,7 +62,19 @@ export default function Quiz({
   const progress = ((currentQuestion + 1) / questions.length) * 100;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100 px-4 py-10">
+    <div
+      className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100 px-4 py-10"
+      style={{
+        backgroundImage: {
+          math: `linear-gradient(rgba(191,219,254,1), rgba(191,219,254,0.8)), url(${bgMath})`,
+          language: `linear-gradient(rgba(254,215,170,1), rgba(254,215,170,0.8)), url(${bgLanguage})`,
+        }[subject],
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+      }}
+    >
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center justify-between mb-8">
           <button
@@ -162,7 +176,7 @@ export default function Quiz({
                 <h3 className="text-xl font-bold mb-2">
                   {selectedAnswer === question.answer
                     ? "¡Correcto! 🎉"
-                    : "¡Ups! 😊"}
+                    : "¡Ups! 😟"}
                 </h3>
                 <p className="text-lg text-gray-700">{question.explanation}</p>
               </div>

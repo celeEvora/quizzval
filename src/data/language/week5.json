@@ -1,0 +1,359 @@
+[
+  {
+    "question": "¿Quién es el emisor en el proceso de comunicación?",
+    "options": [
+      "Quien recibe el mensaje",
+      "Quien envía el mensaje",
+      "El medio por el que viaja el mensaje",
+      "El tema del mensaje"
+    ],
+    "answer": 1,
+    "explanation": "El emisor es quien produce y envía el mensaje.",
+    "topic": "Elementos de la comunicación"
+  },
+  {
+    "question": "¿Quién es el receptor en la comunicación?",
+    "options": [
+      "Quien recibe e interpreta el mensaje",
+      "Quien envía el mensaje",
+      "El contenido transmitido",
+      "El canal utilizado"
+    ],
+    "answer": 0,
+    "explanation": "El receptor es quien recibe y decodifica el mensaje.",
+    "topic": "Elementos de la comunicación"
+  },
+  {
+    "question": "¿Qué es el canal en la comunicación?",
+    "options": [
+      "El medio por el que viaja el mensaje",
+      "La lengua o símbolos empleados",
+      "El tema del mensaje",
+      "La persona que recibe"
+    ],
+    "answer": 0,
+    "explanation": "El canal es el medio físico de transmisión: aire, papel, teléfono, etc.",
+    "topic": "Elementos de la comunicación"
+  },
+  {
+    "question": "¿Qué es el código en la comunicación?",
+    "options": [
+      "El conjunto de signos que permiten el mensaje",
+      "El canal usado",
+      "El tema central del mensaje",
+      "La persona que emite"
+    ],
+    "answer": 0,
+    "explanation": "El código son los signos compartidos: lengua, símbolos, gestos.",
+    "topic": "Elementos de la comunicación"
+  },
+  {
+    "question": "En la oración: 'María canta', el sujeto es:",
+    "options": ["Simple", "Compuesto", "Tácito", "Explícito"],
+    "answer": 0,
+    "explanation": "Un solo núcleo (María).",
+    "topic": "Sujeto simple y compuesto"
+  },
+  {
+    "question": "En la oración: 'Pedro y Juan estudian', el sujeto es:",
+    "options": ["Simple", "Compuesto", "Tácito", "Indeterminado"],
+    "answer": 1,
+    "explanation": "Dos núcleos (Pedro y Juan).",
+    "topic": "Sujeto simple y compuesto"
+  },
+  {
+    "question": "En la oración: 'Voy al mercado', el sujeto es:",
+    "options": ["Tácito", "Explícito", "Compuesto", "Indeterminado"],
+    "answer": 0,
+    "explanation": "No se menciona el sujeto, pero está implícito: 'yo'.",
+    "topic": "Sujeto tácito y explícito"
+  },
+  {
+    "question": "En la oración: 'El perro duerme', el sujeto es:",
+    "options": ["Explícito", "Tácito", "Compuesto", "Indeterminado"],
+    "answer": 0,
+    "explanation": "El sujeto aparece claramente (El perro).",
+    "topic": "Sujeto tácito y explícito"
+  },
+  {
+    "question": "¿Qué indica el sufijo '-ísimo' en un adjetivo?",
+    "options": [
+      "Grado positivo",
+      "Grado comparativo",
+      "Grado superlativo",
+      "Grado diminutivo"
+    ],
+    "answer": 2,
+    "explanation": "Expresa superlativo absoluto (ej: altísimo).",
+    "topic": "Grados del adjetivo"
+  },
+  {
+    "question": "El adjetivo 'muy alto' está en grado:",
+    "options": ["Positivo", "Comparativo", "Superlativo", "Diminutivo"],
+    "answer": 2,
+    "explanation": "'Muy' intensifica el adjetivo, es superlativo.",
+    "topic": "Grados del adjetivo"
+  },
+  {
+    "question": "Selecciona el adjetivo en grado superlativo:",
+    "options": ["Guapo", "Más guapo", "Guapísimo", "Guapo que Pedro"],
+    "answer": 2,
+    "explanation": "La terminación -ísimo indica superlativo.",
+    "topic": "Grados del adjetivo"
+  },
+  {
+    "question": "El adjetivo 'inteligentísima' corresponde a:",
+    "options": ["Positivo", "Comparativo", "Superlativo", "Aumentativo"],
+    "answer": 2,
+    "explanation": "Es superlativo absoluto.",
+    "topic": "Grados del adjetivo"
+  },
+  {
+    "question": "¿Qué es un sustantivo individual?",
+    "options": [
+      "Nombra un solo ser",
+      "Nombra un conjunto",
+      "Nombra cualidades",
+      "Nombra acciones"
+    ],
+    "answer": 0,
+    "explanation": "Ej: abeja, árbol.",
+    "topic": "Sustantivos individuales"
+  },
+  {
+    "question": "¿Qué es un sustantivo colectivo?",
+    "options": [
+      "Nombra un solo ser",
+      "Nombra un conjunto de seres",
+      "Nombra sentimientos",
+      "Nombra cualidades"
+    ],
+    "answer": 1,
+    "explanation": "Ej: enjambre (conjunto de abejas).",
+    "topic": "Sustantivos colectivos"
+  },
+  {
+    "question": "¿Cuál es un sustantivo colectivo?",
+    "options": ["Soldado", "Ejército", "Perro", "Niño"],
+    "answer": 1,
+    "explanation": "Ejército se refiere a un conjunto de soldados.",
+    "topic": "Sustantivos colectivos"
+  },
+  {
+    "question": "¿Cuál es un sustantivo individual?",
+    "options": ["Bosque", "Manada", "Árbol", "Ejército"],
+    "answer": 2,
+    "explanation": "Árbol es un ser individual.",
+    "topic": "Sustantivos individuales"
+  },
+  {
+    "question": "Señala el adverbio en la oración: 'María corrió rápidamente'.",
+    "options": ["María", "Corrió", "Rápidamente", "Ninguno"],
+    "answer": 2,
+    "explanation": "Rápidamente es adverbio de modo.",
+    "topic": "Adverbios"
+  },
+  {
+    "question": "Señala el adverbio en: 'Llegamos ayer'.",
+    "options": ["Llegamos", "Ayer", "Nosotros", "Ninguno"],
+    "answer": 1,
+    "explanation": "Ayer es adverbio de tiempo.",
+    "topic": "Adverbios"
+  },
+  {
+    "question": "¿Cuál es una locución adverbial?",
+    "options": ["A lo lejos", "Bonito", "Ayer", "Tranquilamente"],
+    "answer": 0,
+    "explanation": "'A lo lejos' funciona como adverbio.",
+    "topic": "Locuciones adverbiales"
+  },
+  {
+    "question": "Señala la locución adverbial: 'Lo hizo de repente'.",
+    "options": ["De repente", "Lo", "Hizo", "Ninguno"],
+    "answer": 0,
+    "explanation": "'De repente' funciona como adverbio de modo.",
+    "topic": "Locuciones adverbiales"
+  },
+  {
+    "question": "En la oración: 'Pedro estudia mucho', 'mucho' es:",
+    "options": ["Sustantivo", "Adjetivo", "Adverbio", "Pronombre"],
+    "answer": 2,
+    "explanation": "Es adverbio de cantidad.",
+    "topic": "Adverbios"
+  },
+  {
+    "question": "Identifica el sujeto: 'Corremos todas las mañanas'.",
+    "options": ["Explícito", "Tácito", "Compuesto", "Indeterminado"],
+    "answer": 1,
+    "explanation": "Sujeto tácito: 'nosotros'.",
+    "topic": "Sujeto tácito y explícito"
+  },
+  {
+    "question": "Completa: El emisor ______ y el receptor ______.",
+    "options": [
+      "recibe, envía",
+      "interpreta, transmite",
+      "envía, recibe",
+      "decodifica, produce"
+    ],
+    "answer": 2,
+    "explanation": "Emisor envía, receptor recibe.",
+    "topic": "Elementos de la comunicación"
+  },
+  {
+    "question": "¿Qué grado del adjetivo tiene 'muy grande'?",
+    "options": ["Positivo", "Comparativo", "Superlativo", "Normal"],
+    "answer": 2,
+    "explanation": "El adverbio 'muy' intensifica → superlativo.",
+    "topic": "Grados del adjetivo"
+  },
+  {
+    "question": "Elige el adjetivo en grado superlativo:",
+    "options": ["Hermoso", "Más hermoso", "Hermosísimo", "Tan hermoso"],
+    "answer": 2,
+    "explanation": "Hermosísimo → superlativo absoluto.",
+    "topic": "Grados del adjetivo"
+  },
+  {
+    "question": "Identifica el sustantivo colectivo: 'La manada corrió velozmente'.",
+    "options": ["Manada", "Corrió", "Velozmente", "Ninguno"],
+    "answer": 0,
+    "explanation": "Manada = conjunto de animales.",
+    "topic": "Sustantivos colectivos"
+  },
+  {
+    "question": "Identifica el adverbio en: 'El examen fue bastante difícil'.",
+    "options": ["Examen", "Fue", "Bastante", "Difícil"],
+    "answer": 2,
+    "explanation": "'Bastante' = adverbio de cantidad.",
+    "topic": "Adverbios"
+  },
+  {
+    "question": "¿Qué tipo de sujeto es? 'Los niños y las niñas juegan en el parque'.",
+    "options": ["Simple", "Compuesto", "Tácito", "Indeterminado"],
+    "answer": 1,
+    "explanation": "Dos núcleos: niños y niñas.",
+    "topic": "Sujeto simple y compuesto"
+  },
+  {
+    "question": "Completa: El ______ es el medio físico del mensaje, y el ______ es el sistema de signos.",
+    "options": [
+      "Receptor, canal",
+      "Emisor, código",
+      "Canal, código",
+      "Mensaje, emisor"
+    ],
+    "answer": 2,
+    "explanation": "Canal = medio, código = signos.",
+    "topic": "Elementos de la comunicación"
+  },
+  {
+    "question": "Selecciona la locución adverbial:",
+    "options": ["Con calma", "Calmo", "Calmado", "Calmamente"],
+    "answer": 0,
+    "explanation": "'Con calma' equivale a adverbio de modo.",
+    "topic": "Locuciones adverbiales"
+  },
+  {
+    "question": "Señala el sustantivo individual:",
+    "options": ["Rebaño", "Soldado", "Ejército", "Manada"],
+    "answer": 1,
+    "explanation": "Soldado = ser individual.",
+    "topic": "Sustantivos individuales"
+  },
+  {
+    "question": "El adjetivo 'felicísimo' es:",
+    "options": ["Positivo", "Superlativo", "Comparativo", "Normal"],
+    "answer": 1,
+    "explanation": "Terminación -ísimo = superlativo.",
+    "topic": "Grados del adjetivo"
+  },
+  {
+    "question": "Identifica el adverbio: 'Nunca salgo de noche'.",
+    "options": ["Nunca", "Salgo", "De noche", "Ninguno"],
+    "answer": 0,
+    "explanation": "Nunca = adverbio de negación.",
+    "topic": "Adverbios"
+  },
+  {
+    "question": "Identifica la locución adverbial: 'Trabajó sin descanso'.",
+    "options": ["Trabajó", "Sin descanso", "Descanso", "Ninguno"],
+    "answer": 1,
+    "explanation": "'Sin descanso' funciona como adverbio de modo.",
+    "topic": "Locuciones adverbiales"
+  },
+  {
+    "question": "¿Qué tipo de sujeto es 'Cantamos una canción'? ",
+    "options": ["Simple", "Compuesto", "Explícito", "Tácito"],
+    "answer": 3,
+    "explanation": "No aparece, pero se sobreentiende 'nosotros'.",
+    "topic": "Sujeto tácito"
+  },
+  {
+    "question": "¿Qué palabra es el emisor en esta comunicación?: 'El profesor explicó la lección a los alumnos'.",
+    "options": ["Profesor", "Lección", "Alumnos", "Explicó"],
+    "answer": 0,
+    "explanation": "El emisor es el profesor.",
+    "topic": "Elementos de la comunicación"
+  },
+  {
+    "question": "¿Qué ocurre si en la comunicación no se comparte el mismo código entre emisor y receptor?",
+    "options": [
+      "El mensaje no se entiende",
+      "El mensaje se transmite igual",
+      "El canal se interrumpe",
+      "El mensaje se repite automáticamente"
+    ],
+    "answer": 0,
+    "explanation": "Sin un código compartido (ej: idioma), el receptor no puede interpretar el mensaje.",
+    "topic": "Elementos de la comunicación"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre sujeto simple y sujeto compuesto?",
+    "options": [
+      "El simple tiene un núcleo, el compuesto tiene dos o más",
+      "El simple no aparece en la oración",
+      "El compuesto siempre es tácito",
+      "El simple siempre es un pronombre"
+    ],
+    "answer": 0,
+    "explanation": "El sujeto simple tiene un solo núcleo, mientras que el compuesto tiene dos o más.",
+    "topic": "Sujeto simple y compuesto"
+  },
+  {
+    "question": "¿Cuál es la función de los adverbios en una oración?",
+    "options": [
+      "Modificar verbos, adjetivos u otros adverbios",
+      "Nombrar personas o cosas",
+      "Unirse siempre al sujeto",
+      "Formar locuciones nominales"
+    ],
+    "answer": 0,
+    "explanation": "El adverbio complementa y modifica el significado de un verbo, adjetivo o adverbio.",
+    "topic": "Adverbios"
+  },
+  {
+    "question": "¿Cuál es la diferencia entre sustantivo individual y colectivo?",
+    "options": [
+      "El individual nombra un ser único; el colectivo, un conjunto de seres",
+      "El colectivo siempre está en plural",
+      "El individual nunca se usa en singular",
+      "El colectivo se refiere a cosas abstractas"
+    ],
+    "answer": 0,
+    "explanation": "Ejemplo: abeja (individual), enjambre (colectivo).",
+    "topic": "Sustantivos individuales y colectivos"
+  },
+  {
+    "question": "¿Qué expresan los adjetivos en grado superlativo?",
+    "options": [
+      "La cualidad en su mayor intensidad",
+      "Una comparación entre dos elementos",
+      "La cualidad de manera neutra",
+      "La ausencia de cualidad"
+    ],
+    "answer": 0,
+    "explanation": "El superlativo expresa el grado máximo de una cualidad (ej: bellísimo, muy alto).",
+    "topic": "Grados del adjetivo"
+  }
+]

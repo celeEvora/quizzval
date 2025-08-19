@@ -13,7 +13,7 @@ export default function SubjectSelection({
       <div className="max-w-4xl w-full">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-800 mb-4">
-            ¡Bienvenida a tu App de Estudio! 🤓☝🏼
+            ¡A estudiar, Vale! 🤓☝🏼
           </h1>
           <p className="text-xl text-gray-600">
             Elige la materia que quieres estudiar hoy
@@ -54,16 +54,6 @@ export default function SubjectSelection({
               </p>
             </div>
           </button>
-        </div>
-
-        <div className="text-center mt-12">
-          <div className="inline-flex items-center space-x-2 bg-white rounded-full px-6 py-3 shadow-lg">
-            <span className="text-2xl">🤓</span>
-            <span className="text-lg font-medium text-gray-700">
-              ¡Elige una materia para empezar!
-            </span>
-            <span className="text-2xl">🤓</span>
-          </div>
         </div>
       </div>
     </div>
