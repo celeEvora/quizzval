@@ -22,7 +22,8 @@ export default function Results({
 }: ResultsProps) {
   const correctAnswers = answers.filter((answer) => answer.isCorrect).length;
   const totalQuestions = answers.length;
-  const percentage = Math.round(correctAnswers / totalQuestions) * 100;
+  const percentage = Math.round((correctAnswers / totalQuestions) * 100);
+
   const decimalGrade = (correctAnswers / totalQuestions) * 10;
 
   const subjectInfo = {

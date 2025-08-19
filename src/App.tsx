@@ -1,11 +1,14 @@
-import { useState } from "react";
+import React, { useState, Suspense } from "react";
 import { Subject, AppState, UserAnswer } from "./types";
 import { questionsData } from "./data/questions";
 import { pickRandomQuestions } from "./utils/randomQuestions";
-import SubjectSelection from "./components/SubjectSelection";
-import WeekSelection from "./components/WeekSelection";
-import Quiz from "./components/Quiz";
-import Results from "./components/Results";
+import { Loader } from "./components/Loader";
+const SubjectSelection = React.lazy(
+  () => import("./components/SubjectSelection")
+);
+const WeekSelection = React.lazy(() => import("./components/WeekSelection"));
+const Quiz = React.lazy(() => import("./components/Quiz"));
+const Results = React.lazy(() => import("./components/Results"));
 
 function App() {
   const [appState, setAppState] = useState<AppState>("subject-selection");
@@ -48,48 +51,45 @@ function App() {
     setAppState("quiz");
   };
 
-  if (appState === "subject-selection") {
-    return <SubjectSelection onSelectSubject={handleSelectSubject} />;
-  }
-
-  if (appState === "week-selection" && selectedSubject) {
-    return (
-      <WeekSelection
-        subject={selectedSubject}
-        onSelectWeek={handleSelectWeek}
-        onBack={handleBackToSubjects}
-      />
-    );
-  }
-
-  if (appState === "quiz" && selectedSubject && selectedWeek) {
-    const allQuestions = questionsData[selectedSubject][selectedWeek];
-    const questions = pickRandomQuestions(allQuestions, questionCount);
-
-    return (
-      <Quiz
-        subject={selectedSubject}
-        week={selectedWeek}
-        questions={questions}
-        onComplete={handleQuizComplete}
-        onBack={handleBackToWeeks}
-      />
-    );
-  }
-
-  if (appState === "results" && selectedSubject && selectedWeek) {
-    return (
-      <Results
-        subject={selectedSubject}
-        week={selectedWeek}
-        answers={userAnswers}
-        onBack={handleBackToWeeks}
-        onRestart={handleRestartQuiz}
-      />
-    );
-  }
-
-  return <SubjectSelection onSelectSubject={handleSelectSubject} />;
+  return (
+    <Suspense fallback={<Loader />}>
+      {appState === "subject-selection" && (
+        <SubjectSelection onSelectSubject={handleSelectSubject} />
+      )}
+      {appState === "week-selection" && selectedSubject && (
+        <WeekSelection
+          subject={selectedSubject}
+          onSelectWeek={handleSelectWeek}
+          onBack={handleBackToSubjects}
+        />
+      )}
+      {appState === "quiz" &&
+        selectedSubject &&
+        selectedWeek &&
+        (() => {
+          const allQuestions = questionsData[selectedSubject][selectedWeek];
+          const questions = pickRandomQuestions(allQuestions, questionCount);
+          return (
+            <Quiz
+              subject={selectedSubject}
+              week={selectedWeek}
+              questions={questions}
+              onComplete={handleQuizComplete}
+              onBack={handleBackToWeeks}
+            />
+          );
+        })()}
+      {appState === "results" && selectedSubject && selectedWeek && (
+        <Results
+          subject={selectedSubject}
+          week={selectedWeek}
+          answers={userAnswers}
+          onBack={handleBackToWeeks}
+          onRestart={handleRestartQuiz}
+        />
+      )}
+    </Suspense>
+  );
 }
 
 export default App;
