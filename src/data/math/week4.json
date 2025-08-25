@@ -204,14 +204,14 @@
   {
     "question": "¿Cuánto es 2/3 + 3/4?",
     "options": ["17/12", "13/12", "23/12", "11/12"],
-    "answer": 1,
+    "answer": 0,
     "explanation": "MCD=12. 2/3=8/12, 3/4=9/12. 8+9=17/12 = 1 5/12.",
     "topic": "Suma heterogénea"
   },
   {
     "question": "¿Cuánto es 5/6 - 2/9?",
     "options": ["13/18", "11/18", "1/18", "7/18"],
-    "answer": 0,
+    "answer": 1,
     "explanation": "MCD=18. 5/6=15/18, 2/9=4/18. 15-4=11/18.",
     "topic": "Resta heterogénea"
   },
@@ -225,7 +225,7 @@
   {
     "question": "Resuelve: 2/3 - 1/6 + 3/6",
     "options": ["1", "2/3", "5/6", "7/6"],
-    "answer": 2,
+    "answer": 0,
     "explanation": "2/3=4/6. 4/6-1/6+3/6=6/6=1.",
     "topic": "Operación combinada"
   },
@@ -246,7 +246,7 @@
   {
     "question": "Pedro tiene 2 1/2 manzanas y Juan le da 1 1/2 más. ¿Cuántas tiene en total?",
     "options": ["3", "4", "5", "4 1/2"],
-    "answer": 3,
+    "answer": 1,
     "explanation": "2 1/2+1 1/2=4.",
     "topic": "Problema con mixtos"
   },
@@ -267,7 +267,7 @@
   {
     "question": "Un número mixto 5 2/3 equivale a qué fracción impropia?",
     "options": ["17/3", "15/3", "16/3", "20/3"],
-    "answer": 3,
+    "answer": 0,
     "explanation": "5×3+2=17, sobre 3=17/3.",
     "topic": "Números mixtos"
   },
@@ -281,28 +281,28 @@
   {
     "question": "¿Cuánto es 2/9 + 5/18?",
     "options": ["7/18", "9/18", "1/2", "11/18"],
-    "answer": 3,
+    "answer": 2,
     "explanation": "2/9=4/18. 4/18+5/18=9/18=1/2.",
     "topic": "Suma heterogénea"
   },
   {
     "question": "¿Cuánto es 11/12 - 5/6?",
     "options": ["1/12", "3/12", "2/12", "4/12"],
-    "answer": 1,
+    "answer": 0,
     "explanation": "5/6=10/12. 11/12-10/12=1/12.",
     "topic": "Resta heterogénea"
   },
   {
     "question": "Resuelve: 3/5 + 2/10 - 1/2",
-    "options": ["0", "1/10", "2/5", "1/5"],
-    "answer": 0,
-    "explanation": "3/5=6/10. 6/10+2/10=8/10. 8/10-5/10=3/10 → revisa opciones.",
+    "options": ["0", "1/10", "2/5", "3/10"],
+    "answer": 3,
+    "explanation": "3/5=6/10. 6/10+2/10=8/10. 8/10-5/10=3/10.",
     "topic": "Operación combinada"
   },
   {
     "question": "De un litro de leche, Ana bebió 3/10 y Luis 2/5. ¿Qué fracción quedó?",
     "options": ["1/10", "2/10", "3/10", "5/10"],
-    "answer": 1,
+    "answer": 2,
     "explanation": "2/5=4/10. 3/10+4/10=7/10. 1-7/10=3/10.",
     "topic": "Problema"
   },

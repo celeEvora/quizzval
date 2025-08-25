@@ -103,14 +103,14 @@
   {
     "question": "¿Cuánto es 1.2 × 0.3?",
     "options": ["0.24", "0.32", "0.36", "0.42"],
-    "answer": 0,
+    "answer": 2,
     "explanation": "1.2 × 0.3 = 0.36.",
     "topic": "Multiplicación decimal × decimal"
   },
   {
     "question": "¿Cuánto es 0.8 × 0.4?",
     "options": ["0.16", "0.24", "0.28", "0.32"],
-    "answer": 0,
+    "answer": 3,
     "explanation": "0.8 × 0.4 = 0.32.",
     "topic": "Multiplicación decimal × decimal"
   },
@@ -124,14 +124,14 @@
   {
     "question": "¿Cuánto es 6 ÷ 0.2?",
     "options": ["20", "25", "28", "30"],
-    "answer": 0,
+    "answer": 3,
     "explanation": "6 ÷ 0.2 = 30.",
     "topic": "División natural ÷ decimal"
   },
   {
     "question": "¿Cuánto es 8 ÷ 0.4?",
     "options": ["16", "18", "20", "22"],
-    "answer": 0,
+    "answer": 2,
     "explanation": "8 ÷ 0.4 = 20.",
     "topic": "División natural ÷ decimal"
   },
@@ -216,7 +216,7 @@
   {
     "question": "¿Cuánto es 0.6 × 0.7?",
     "options": ["0.30", "0.36", "0.40", "0.42"],
-    "answer": 1,
+    "answer": 3,
     "explanation": "0.6 × 0.7 = 0.42.",
     "topic": "Multiplicación decimal × decimal"
   },
@@ -230,7 +230,7 @@
   {
     "question": "¿Cuánto es 9 ÷ 0.3?",
     "options": ["25", "27", "29", "30"],
-    "answer": 1,
+    "answer": 3,
     "explanation": "9 ÷ 0.3 = 30, porque 0.3 × 30 = 9.",
     "topic": "División natural ÷ decimal"
   },

@@ -23,7 +23,9 @@ function shuffleOptions(question: Question): Question {
     .map((option, index) => ({ option, index }))
     .sort(() => Math.random() - 0.5);
 
-  const newAnswer = shuffled.findIndex((o) => o.index === correctAnswer);
+  const newAnswer = shuffled.findIndex(
+    (option) => option.index === correctAnswer
+  );
 
   return {
     ...question,
