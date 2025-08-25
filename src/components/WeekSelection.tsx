@@ -73,7 +73,7 @@ export default function WeekSelection({
           </p>
         </div>
 
-        <div className="mt-6 flex gap-2 justify-center mb-12">
+        <div className="mt-6 flex gap-2 justify-center mb-12 flex-wrap">
           {[10, 15, 20, 25].map((num) => (
             <button
               key={num}
